@@ -1,0 +1,692 @@
+/**le top du site l'entete en quelque sorte**/
+/*box-shadow:1px 7px 7px -7px black pour le menu
+  box-shadow:0px 1px 0px 0px black
+  il faut enlever le border pour avoir le bon shadow
+*/
+body{
+	background-color:#f5f5f5;
+}
+header{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+.tableau{
+	background-color: #167e7e;
+}
+.tableau a{
+	text-decoration: none;
+	color: white;
+	font-family: calibri;
+	font-size: 17px;
+	text-align: center;
+}
+
+.marge:hover,focus{
+	background-color:#147171;
+	color:blue; 
+	padding: 20px;
+	text-align: center;
+}
+.margeann:hover,active{
+	background-color:#147171;
+	text-align: center;
+	padding: 10px;
+	/*color: red;*/
+}
+.tableau button{
+	background-color: #26a69a;
+	color: white;
+	border: none;
+	padding: 5px 7px;
+	box-shadow: 0px 1px 0px 0px none;
+	
+}
+.logo{
+	padding-left: 20%;
+}
+.logo2{
+	margin-top: 6%;
+	width: 75%;
+	margin-left: 10%;
+}
+.defile{
+	width: 75%;
+	margin-left: 10%;
+    color:#125d80; 
+}
+
+    
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*&nbsp; pour marquer l'espace*/
+
+/*La fin de l'entete*/
+/**
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+**/
+
+/**le debut du pied de page
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------**/
+
+#foot{
+	background-color: #9e9e9e;
+	color: white;
+}
+span{
+	margin-left: 30%;
+
+}
+.copyright{
+	margin-left: 17%;	
+}
+
+.tdfoot1{
+margin-left: 30%;	
+}	
+hr {
+	margin-left: 0%;
+}
+.plusdelien{
+	margin-right: 20%;
+}
+.button{
+	margin-left: 38%;
+	padding: 1% 2%;
+	text-transform: uppercase;
+	background-color:#607d8b;
+	border: none;
+	box-shadow:1px 7px 7px -7px none;  
+}
+.button a{
+	text-decoration: none;
+	color: white;
+}
+input {
+	border: none;
+  t	background:  #9e9e9e;
+	color: white;
+}
+
+.dernier{
+ background: #607d8b;
+}
+/**
+---------------FIN DU PIED DE PAGE--------------------------------YES--------------
+---------------FIN DU PIED DE PAGE--------------------------------YES--------------
+**/
+
+
+/**Le debut pour la page de connexion
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------**/
+.connect{
+	
+	border:none;
+	width: 27%;/*pour reduire la taille de la forme*/
+	
+	margin-left:38%;/*pour gerer les marges de la forme par rapport au site*/
+	background-color: white;
+	box-shadow: 0px 1px 3px 0.1px black;
+	height: 540px;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	
+}
+h3{
+    padding: 10px;
+	font-size: 200%;
+	margin-left: 20%;
+	color: #4b0f31;
+	font-family: calibri;
+	margin-top: 5%;
+
+}
+.mail{
+	border:none;
+	border-bottom: 1px solid black;
+	margin-left: 20%;
+	color: #4b0f31;
+	font-family: calibri;
+	/*background-color: #e3c1c1;*/
+	font-size: 20px;
+	text-align: left;
+	margin-top: -8%;
+}
+.mail:hover,.mail:focus{
+	border:none;
+	border-bottom: 1px solid black;
+	color: teal;
+	    }
+.mdp{
+	border:none;
+	border-bottom: 1px solid black;
+	margin-left: 20%;
+	color: #4b0f31;
+	font-family: calibri;
+	/*background-color: #e3c1c1;*/
+	font-size: 20px;
+	text-align: left;
+	margin-top: 5%;
+}
+
+.img{
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 5%;
+	}
+.creer{
+	color: red;
+	text-decoration:none;
+	font-size: 19px;
+	margin-left: 35%;
+	margin-top: 65%;
+}
+.creer:hover{
+	color:purple;
+
+}
+
+.seconnecter{
+	border:none;
+	margin-left: 27%;
+	margin-top: 17%;
+	background-color:rgb(30,144,255);
+	cursor: pointer;
+	font-size: 18px;
+	box-shadow: 0px 1px 3px 0.1px black;
+	color: white;
+	padding: 5px 19px;
+    border-radius: 10px 8px;
+
+
+}
+.seconnecter:hover{
+	box-shadow: 0.1px 1.1px 4px 0.2px black; 
+	border-radius: 10px 8px;
+}
+/**FIN DE LA PAGE DE CONNEXION
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------**/
+/*Les mises en forme des liens en bas de page */
+.stable{
+
+}
+.defile{
+	text-align: right;
+}
+#topbar a:hover{
+	color: purple;
+	
+}
+#tableau a{
+	color: red;
+	text-decoration: none;/*pour enlever le soulignement des liens par defaut */
+	border: none;
+	border-radius: 10px 10px 10px 10px;/*pour les bordures des liens */
+	background-color: #e0ffbb;
+	box-shadow: 5px 5px 5px 0.1px #838383 ;/*ombre des liens mais derriere*/
+    /*box-shadow: 0px 0px 5px 0.1px black*/
+    opacity: 0.8;
+	text-decoration: underline black;/*pour souligner les liens*/
+	padding: 10px 10px;
+	font-size: 18px;
+	margin-left: 30px;
+	padding-bottom: 2px;
+
+}
+.section{
+	margin-left: 35px;/*pour decaler le tableau suivant la gauche*/
+	margin-bottom: 20px;/*pour decaler le tableau du bas vers le haut*/
+}
+/*Fin de la mise en forme des liens en bas de la page*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------------------------------------------------------------------------------------------------------------------------------
+*******************************************************************************************************************************
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////1*/
+/**POUR La page lireplus c'est le debut
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------**/
+.aie{
+	margin-left: 35%;
+	color:#4b0f31;
+	font-size: 90px;
+}
+.Erreur{
+	margin-left: 38%;
+	font-size: 30px;
+	padding-top: 25px;
+}
+.emoji{
+	color: skyblue;
+}
+.pageintrou{
+	margin-left: 35%;
+	color: skyblue;
+	font-size: 30px;
+	padding-bottom:0%;
+}
+.p2{
+	font-size: 50px;
+	color: grey;
+	margin-bottom:15px; 
+
+}
+.rect{
+	background-color:#ffffff;
+	width: 80%;
+    box-shadow: 0px 0px 2px 0.1px; 
+    height: 100;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    border:none;
+    height: 380px;
+}
+.lien{
+	color: red;
+	text-decoration: none;
+}
+
+.lien:hover{
+	color: black;
+	
+}
+
+/**fin de lire plus
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------**/
+/**LES MISES EN FORME DE LA PAGE D'ACCUEIL*/
+.ligne{
+	padding-bottom: 1px;
+}
+.TitreVIP p{
+	background-color: #ff9800;
+	text-align: center;
+	font-size: 17px;
+	width: 70%;
+	color: #866e4b;
+	margin-left: 14%;
+}
+.article{
+	float: right;
+	margin-right: 13%;
+	box-shadow: 0px 0px 5px 0.1px black ;
+}
+.voir-larticle a{
+	text-decoration: none;
+	color: red;
+	font-family: calibri;
+	font-size: 18px;
+}
+.searchbut{
+	margin-left: 40%;
+	padding: 1.5%   8%;
+	background-color: #ffffff;
+	color: black;
+
+}
+.recherche{
+	background-color: #167e7e;
+	margin-left: 40%;
+	color: white;
+	border: none;
+	padding: 8px 15px;
+	box-shadow: 0px 0px 5px 0.1px black ;
+}
+.rp{
+background-color: #167e7e;
+	margin-left: 10%;
+	color: white;
+	border: none;
+	padding: 8px 15px;
+	box-shadow: 0px 0px 5px 0.1px black ;	
+}
+.modelepub{
+	margin-left: 4%;
+	color: #607d8b;
+	font-family: calibri;
+	font-size: 17px;
+}
+.tab-annonce{
+	width: 60%;
+	margin-left: 5%;
+	box-shadow: 0px 0px 5px 0.1px ;	
+}
+.num1{
+	font-size: 55px;
+	font-family: arial;
+	padding-bottom: 40px;
+}
+.tex{
+	font-family: arial;
+	font-size: 20px;
+	padding-bottom:200px;
+}
+.lie{
+	margin-right: 3%;
+	text-decoration: none;
+	padding: 1% 2%;
+	text-transform: uppercase;
+	background-color:#607d8b;
+	border: none;
+	box-shadow:0px 0px 3px 0.1px black ;	 
+	 } 
+.lie a{
+	color: white;
+	text-decoration: none;
+} 
+	
+
+.titre{
+	background: orange;
+}
+/**La partie de la publication d'une voiture apres connexion
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+**/
+.Parametres{
+	font-size: 40px;
+	color: #4b0f31;
+	font-family: "myriad pro";
+}
+.petit{
+	color: #4b0f31;
+	font-size: 20px ;
+	margin-bottom: 25px;
+}
+.hr{
+	margin-top: -17px;
+}
+.h1{
+	color: #80d3f5;
+	margin-left: 300px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.listpub{
+	color: #4b0f31;
+	font-size: 40px;
+}
+#nav{
+	margin-left: 80px;
+
+}
+.form{
+color: white; 
+font-size: 20px;
+text-align: center;
+padding-top: 3px;
+}
+.pub1{
+	width: 15%;
+	background: #ff9800;
+	height: 120px;
+	padding-left: 10px;
+	box-shadow: 0px 0px 5px 0.1px black;
+	border:none;
+
+}
+.pub2{
+	width: 15%;
+	background: #9e9e9e;
+	height: 120px;
+	padding-left: 10px;
+	border:none;
+	box-shadow: 0px 0px 5px 0.1px black;
+}
+.pub3{
+	width: 15%;
+	background: #8bc34a;
+	height: 120px;
+	padding-left: 10px;
+	border:none;
+	box-shadow: 0px 0px 5px 0.1px black;
+}
+.pub4{
+	width: 15%;
+	background: #03a9f4;
+	height: 120px;
+	padding-left: 20px;
+	border:none;
+	box-shadow: 0px 0px 5px 0.1px black;
+}
+.p0{
+	font-size: 30px;
+}
+/*-----DEBUT LOUER.HTML---------------
+------->>><<<<<-----------------
+*/
+
+.tete{
+	background-color:#7d933c;
+	width: 60%;
+	height: 70px;
+	margin-left: 5%;
+}
+.tete a{
+    padding-left: 60px;
+	font-size: 20px;
+	font-family: calibri;
+	text-decoration: none;
+	color: white;
+}
+.tete a:hover{
+	background-color: #708436;
+	padding: 23px;
+}
+.
+/*----------------pour le tableau de louer et la mise ne forme des span----------------------br
+  ----------------pour le tableau de louer et la mise ne forme des span----------------------*/
+.tablouer{
+margin-left: 5%;
+height: 90%;
+width: 100%;
+}
+/*1px 7px 7px -7px*/
+.div{
+	box-shadow:  1px 7px 7px -7px black;
+	width: 60%;
+	margin-left: 5%;
+	margin-top: 0.5%;
+	margin-bottom: 1%
+}
+.tablouer em{
+
+	font-size: 20px;
+	font-family: calibri;
+}
+.image{
+	width: 90%;
+	margin-left: 2%;
+	height: 5%;
+}
+.prix{
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: #ff9800;
+	margin-left: 12%;
+
+}
+.infopub{
+	margin-left: 2%;
+}
+.tab2 td{
+    width: 10%;
+}
+.span1{
+text-align: center;
+background-color: #03a9f4;
+border-radius: 15px;
+border: none;
+font-family: calibri;
+font-size: 15px;
+
+}
+.span2{
+border: none;
+font-family: calibri;
+font-size: 15px;
+background-color: #e4e4e4;
+padding: 5px;
+border-radius: 15px;
+text-align: center;
+border-width: 1px;
+}
+.span3{
+background-color: #e4e4e4;
+border-radius: 15px;
+font-family: calibri;
+font-size: 15px;
+border: none;
+}
+.span4{
+border: none;
+font-family: calibri;
+font-size: 15px;	
+background-color: #e4e4e4;
+padding: 5px;
+border-radius: 15px;
+text-align: center;
+}
+.span5{
+text-align: center;
+background-color: #8bc34a;
+padding: 5px;
+border-radius: 15px;
+border: none;
+font-family: calibri;
+font-size: 15px;
+}
+.span6{
+text-align: center;
+background-color: #e4e4e4;
+padding: 5px;
+border-radius: 15px;
+border: none;
+font-family: calibri;
+font-size: 15px;
+}
+.span7{
+text-align: center;
+background-color: #ff5722;
+padding: 3px 1px;
+border-radius: 15px;
+border: none;
+font-family: calibri;
+font-size: 15px;
+}
+.span8{
+text-align: center;
+background-color: #e4e4e4;
+padding: 5px;
+border-radius: 15px;
+border: none;
+font-family: calibri;
+font-size: 15px;
+}
+.span9{
+text-align: center;
+background-color: #e4e4e4;
+padding: 5px;
+border-radius: 15px;
+border: none;
+font-family: calibri;
+font-size: 15px;
+}
+.span10{
+text-align: center;
+background-color: #03a9f4;
+padding: 5px;
+border-radius: 15px;
+border: none;
+font-family: calibri;
+font-size: 15px;
+}
+.span11{
+text-align: center;
+background-color: #ff9800;
+padding: 5px;
+border-radius: 15px;
+border: none;
+font-family: calibri;
+font-size: 15px;
+}
+
+
+.lpoints{
+	margin-left: 30%;
+
+}
+.lpoints a{
+	text-decoration: none;
+	color: #ff9800;
+	font-size: 25px;
+}
+
+/**
+.ligne{
+	width: 97%;
+	margin-top: 28%;
+}
+.tablouer span{
+	color: black;
+	border: none;
+	border-radius: 10px;
+	background-color: orange;
+	word-spacing: 0.5em;
+	font-size: 15px;
+	font-family: calibri;
+	text-align: center;
+	
+	margin-bottom: 100px;
+}
+.nomvoiture{
+	text-align: center;
+}*/
+input[type="mail"],input[type="password"]
+{
+	border:none;
+	border-bottom: 1px solid;
+}
